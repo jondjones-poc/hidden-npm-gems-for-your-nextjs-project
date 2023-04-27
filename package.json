@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@types/node": "18.16.0",
@@ -14,9 +15,19 @@
     "@types/react-dom": "18.0.11",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
+    "fs": "^0.0.1-security",
     "next": "13.3.1",
+    "next-sitemap": "^4.0.7",
+    "nookies": "^2.5.2",
+    "nprogress": "^0.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "swr": "^2.1.4",
+    "typescript": "5.0.4",
+    "zod": "^3.21.4",
+    "zustand": "^4.3.7"
+  },
+  "devDependencies": {
+    "@types/nprogress": "^0.2.0"
   }
 }
